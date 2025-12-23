@@ -18,7 +18,7 @@ const BioScanner: React.FC = () => {
             <div className="relative aspect-square max-w-md mx-auto rounded-3xl overflow-hidden bg-lab-softgray border border-lab-border">
               {/* Image Placeholder */}
               <img 
-                src="../components/assets/image.png" 
+                src="/assets/image.png" 
                 alt="Mayur"
                 className="w-full h-full object-cover filter grayscale opacity-90"
               />
