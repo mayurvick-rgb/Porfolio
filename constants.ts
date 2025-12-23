@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     category: 'AI Platform',
     description: 'An intelligent legal assistant platform simplifying complex documentation with generative AI.',
     tech: ['React Native', 'React Js','OpenAI API', 'Tailwind', 'MongoDB'],
-    image: './components/assets/lexi.jpeg',
+    image: '/assets/lexi.jpeg',
     link:'https://www.lexiai.legal/'
   },
   {
@@ -17,7 +17,7 @@ export const PROJECTS: Project[] = [
     category: 'Car Rental',
     description: 'Modern car rental platform with real-time availability and booking management.',
     tech: ['React', 'express.js', 'MongoDB', 'Talwind CSS','Three Fiber'],
-    image: './components/assets/gomiles.png',
+    image: '/assets/gomiles.png',
     link:'https://carrentalfrontend-two.vercel.app/'
   },
   {
@@ -26,7 +26,7 @@ export const PROJECTS: Project[] = [
     category: 'AI Tool',
     description: 'AI-powered resume analysis tool that scores and provides feedback on resume quality and ATS compatibility.',
     tech: ['React', 'Python', 'OpenAI API', 'Flask'],
-    image: './components/assets/resume.png',
+    image: '/assets/resume.png',
     link:'https://www.linkedin.com/posts/mayur-kumawat-020369288_react-django-webscraping-activity-7392546678702231552-z8sN?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEXSBtgBQRsUBob_BMpJNBXMduyejEAMA_Q&utm_campaign=copy_link'
   },
   {
@@ -35,7 +35,7 @@ export const PROJECTS: Project[] = [
     category: 'Lifestyle',
     description: 'Social recipe sharing platform with nutritional analysis.',
     tech: ['React','Express','React native','MongoDb', 'Framer Motion'],
-    image: './components/assets/cookbook.png',
+    image: '/assets/cookbook.png',
     link:'https://www.linkedin.com/posts/mayur-kumawat-020369288_cookbook-application-developed-in-react-native-activity-7259566261985026048-TwVX?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEXSBtgBQRsUBob_BMpJNBXMduyejEAMA_Q&utm_campaign=copy_link'
   },
   {
@@ -44,7 +44,7 @@ export const PROJECTS: Project[] = [
     category: 'Utility',
     description: 'Real-time weather application with location-based forecasts and interactive weather maps.',
     tech: ['React', 'Weather API', 'CSS3', 'JavaScript'],
-    image: './components/assets/weather.png',
+    image: '/assets/weather.png',
     link:'https://www.linkedin.com/posts/mayur-kumawat-020369288_weather-app-developed-in-react-js-activity-7259453915253919744-FT0N?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEXSBtgBQRsUBob_BMpJNBXMduyejEAMA_Q&utm_campaign=copy_link'
   }
 ];

@@ -20,15 +20,15 @@ const ContactTerminal: React.FC = () => {
     
     try {
       await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        'service_wkvqa1h',
+        'template_ci1tdev',
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_email: 'mayurvicky01234@gmail.com'
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+        'cvd_ISnTmH_yYSQIH'
       );
       
       setStatus('Message sent successfully!');
