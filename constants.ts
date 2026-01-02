@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
     description: 'AI-powered resume analysis tool that scores and provides feedback on resume quality and ATS compatibility.',
     tech: ['React', 'Python', 'OpenAI API', 'Flask'],
     image: '/assets/resume.png',
-    link:'https://www.linkedin.com/posts/mayur-kumawat-020369288_react-django-webscraping-activity-7392546678702231552-z8sN?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEXSBtgBQRsUBob_BMpJNBXMduyejEAMA_Q&utm_campaign=copy_link'
+    link:'https://resume-five-olive.vercel.app/'
   },
   {
     id: '4',
